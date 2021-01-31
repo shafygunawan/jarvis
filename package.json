@@ -1,0 +1,31 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "Whatsapp Chatbot that can help do certain things",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafygunawan/jarvis.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "wa",
+    "chatbot",
+    "bot",
+    "wabot"
+  ],
+  "author": "Shafy Gunawan <shafygunawan@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shafygunawan/jarvis/issues"
+  },
+  "homepage": "https://github.com/shafygunawan/jarvis#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.12.1"
+  }
+}
